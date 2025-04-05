@@ -1,7 +1,10 @@
+import Quotes from "./pages/Quotes";
+
 function App() {
   return (
-    <h1>hi</h1>
-  );
+    <Quotes /> 
+  )
+
 }
 
 export default App;
