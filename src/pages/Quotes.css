@@ -5,6 +5,7 @@
 }
 
 body {
+    font-family: Helvetica, sans-serif;
     background-color: #ffffff;
     padding-top: 50px;
 }
@@ -15,13 +16,58 @@ body {
 }
 
 form {
-    padding-top: 50px;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
     margin: 0 auto;
     background-color: #ececec;
     width: 500px;
-    height: 700px;
+    height: 250px;
     text-align: center;
     border: 1px solid #ebebeb;
     border-radius: 30px;
     box-shadow: 1px 1px 20px hsla(37, 12%, 13%, 0.068);
+    margin-bottom: 30px;
+}
+
+form h1 {
+    margin-bottom: 30px;
+}
+
+form input {
+    margin: 0 auto;
+    border-radius: 30px;
+    height: 40px;
+    border: none;
+    color: #605e66;
+    font-size: 20px;
+    padding-left: 30px;
+    margin-bottom: 20px;
+    width: 80%;
+}
+
+form button {
+    margin: 0 auto;
+    border-radius: 30px;
+    height: 40px;
+    border: none;
+    background-color: #ff8800;
+    color: #000000;
+    font-size: 20px;
+    margin-bottom: 20px;
+    width: 80%;
+}
+
+#error {
+    width: 100%;
+    margin: 0 auto;
+    color: red;
+    font-size: 19px;
+}
+
+.quoteContainer {
+    font-size: 21px;
+    width: 100%;
+    text-align: center;
 }
