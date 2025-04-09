@@ -1,6 +1,7 @@
 {
   "name": "quotes",
   "version": "0.1.0",
+  "homepage": "https://pplatonn.github.io/Find-Your-Quote/",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
